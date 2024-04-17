@@ -1,3 +1,65 @@
+h1{
+  font-size: 54px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 2vh;
+}
+
+p {
+  padding-right: 3rem;
+}
+
+#main-page {
+  height: fit-content;
+  width: 100%;
+}
+
+#information {
+  height: fit-content;
+  width: auto;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+#information h1 {
+  font-size: 45px;
+  font-weight: 450;
+  display: flex;
+  flex-direction: column;
+}
+
+#g-info {
+  background-color: #e8ebd9;
+  width: 100%;
+  height: fit-content;
+  padding-left: 3vw;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.highlight-box{
+  background-color: white;
+  border-radius: 40px;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px;
+  display: flex;
+  flex-direction: row !important;
+}
+
+.nav-link{
+  white-space: nowrap;
+}
+
 .video-container {
   position: relative;
   width: 100%;
@@ -17,9 +79,58 @@
 
 .content {
   position: absolute;
-  top: 50%;
-  margin-left: 9vw;
+  top: 30%;
+  margin: 0 1.5%;
+
   z-index: 1; /* Ensure content is above video */
   color: white; /* Adjust text color */
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.btn-container {
+  position: absolute;
+  top: 56%;
+  margin: 0 2%;
+  width: fit-content;
+  height: 100vh;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0px;
+  text-decoration: none;
+  border-color: blue;
+  width: 136px;
+}
+
+.w-info {
+  background-color: white;
+  margin: 10% 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 2;
+  bottom: 5px;
+}
+
+.img-container-i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-container {
+  justify-content: center;
+  align-items: center;
+  padding-left: 7rem;
+
 }
